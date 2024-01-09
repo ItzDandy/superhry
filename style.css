@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(93, 14, 167);
+    text-align: center;
+    color: white;
+}
+#gameList a:hover {
+    transform: scale(0.05); /* Mírně zvětší kontejner po najetí myši */
+    transition: transform 0.3s ease;
+}
+
+#gameList img {
+    width: 19%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#gameList a:hover img {
+    transform: scale(1.05); /* Mírně zvětší obrázek po najetí myši */
+}
+
+#gameList span {
+    display: block;
+    margin-top: 5px;
+}
+
+#friv {
+    justify-content: center;
+}

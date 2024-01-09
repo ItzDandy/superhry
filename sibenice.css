@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://t4.ftcdn.net/jpg/01/01/05/97/360_F_101059744_v3iOQuoEiSyUxcgiILvDzWprTkShqd7c.jpg');
+    background-size: cover;
+}
+#word-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #alphabet-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .letter-button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
