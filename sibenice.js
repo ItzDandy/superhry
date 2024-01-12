@@ -1,4 +1,4 @@
-const words = ["kolo", "slon", "hory", "minecraft", "pes","okurka,jablko","anakonda","myš","telefon"];
+const words = ["kolo", "slon", "hory", "minecraft", "pes","okurka","jablko","anakonda","mys","telefon"];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 let incorrectGuesses = 0;
 const maxIncorrectGuesses = 8;

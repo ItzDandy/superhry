@@ -4,7 +4,7 @@ body {
     color: white;
 }
 #gameList a:hover {
-    transform: scale(0.05); /* Mírně zvětší kontejner po najetí myši */
+    transform: scale(0.05); 
     transition: transform 0.3s ease;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 #gameList a:hover img {
-    transform: scale(1.05); /* Mírně zvětší obrázek po najetí myši */
+    transform: scale(1.05); 
 }
 
 #gameList span {
